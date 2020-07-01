@@ -1,9 +1,7 @@
-import React from "react";
-
-export default function Home() {
-  return (
-    <div>
-      <h1>Hello front end</h1>
-    </div>
-  );
+import React from "react"
+import SocialLinks from "../constants/socialLinks"
+const Footer = () => {
+  return <h2>footer component</h2>
 }
+
+export default Footer
