@@ -551,11 +551,11 @@ Jobs
   justify-content: center;
   margin-bottom: 4rem;
 }
+/* TODO: Add Media Queries for Mobile */
 .job-btn {
   background: transparent;
   border-color: transparent;
-  text-transform: capitalize;
-  font-size: 1.25rem;
+  font-size: 0.7rem;
   letter-spacing: var(--spacing);
   margin: 0 0.5rem;
   transition: var(--transition);

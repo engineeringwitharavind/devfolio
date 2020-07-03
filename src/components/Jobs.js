@@ -34,7 +34,7 @@ const Jobs = () => {
       <Title title="expierence" />
       <div className="jobs-center">
         {/* btn container */}
-        <div className="btn-container">
+        <div className="btn-container btn-sm">
           {jobs.map((item, index) => {
             return (
               <button
