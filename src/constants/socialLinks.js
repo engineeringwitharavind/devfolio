@@ -1,37 +1,37 @@
 import React from "react";
 import {
-  FaFacebookSquare,
-  FaLinkedin,
-  FaGithubSquare,
-  FaInstagramSquare,
-  FaTwitterSquare,
+  FaTelegramPlane,
+  FaLinkedinIn,
+  FaGithub,
+  FaInstagram,
+  FaTwitter,
 } from "react-icons/fa";
 
 const data = [
   {
     id: 1,
-    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaTelegramPlane className="social-icon"></FaTelegramPlane>,
+    url: "https://t.me/aravind_viewz",
   },
   {
     id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    icon: <FaLinkedinIn className="social-icon"></FaLinkedinIn>,
+    url: "https://www.linkedin.com/in/aravind-alpha/",
   },
   {
     id: 3,
-    icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaGithub className="social-icon"></FaGithub>,
+    url: "https://github.com/aravind-alpha",
   },
   {
     id: 4,
-    icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaInstagram className="social-icon"></FaInstagram>,
+    url: "https://www.instagram.com/aravind_viewz/",
   },
   {
     id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaTwitter className="social-icon"></FaTwitter>,
+    url: "https://twitter.com/aravindviewz",
   },
 ];
 const links = data.map((link) => {
