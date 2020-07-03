@@ -563,6 +563,11 @@ Jobs
   padding: 0.25rem 0;
   line-height: 1;
 }
+@media screen and (max-width: 767px) {
+  .job-btn {
+    font-size: 0.7rem;
+  }
+}
 .job-btn:hover {
   color: var(--clr-primary-5);
   box-shadow: 0 2px var(--clr-primary-5);
@@ -571,9 +576,9 @@ Jobs
   color: var(--clr-primary-5);
   box-shadow: 0 2px var(--clr-primary-5);
 }
-.job-info {
-  /* min-height: 420px; */
-}
+/* .job-info {
+   min-height: 420px; 
+} */
 .job-info h3 {
   font-weight: 400;
 }
