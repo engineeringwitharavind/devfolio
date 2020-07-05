@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 
 /*
 =============== 
@@ -38,7 +38,7 @@ Variables
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-white: #fff;
-  --ff-primary: "Roboto", sans-serif;
+  --ff-primary: "Lobster", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.2rem;
@@ -79,7 +79,8 @@ a {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
@@ -688,7 +689,7 @@ Projects
 .project-stack span,
 .about-stack span {
   display: inline-block;
-  background: var(--clr-grey-9);
+  background: var(--clr-primary-9);
   color: var(--clr-grey-5);
   margin-right: 0.5rem;
   padding: 0.25rem 0.5rem;
@@ -801,7 +802,7 @@ Blog
 }
 .blog-footer p:first-of-type {
   display: inline-block;
-  background: var(--clr-grey-9);
+  background: var(--clr-primary-9);
   color: var(--clr-grey-5);
   margin-right: 0.5rem;
   padding: 0.25rem 0.5rem;
@@ -838,13 +839,13 @@ Footer
   display: grid;
   place-items: center;
 }
-.footer h6 {
+.footer h5 {
   margin-top: 0.5rem;
   color: var(--clr-white);
   font-weight: normal;
   text-transform: uppercase;
 }
-.footer h6 span {
+.footer h5 span {
   color: var(--clr-primary-5);
 }
 .footer-links {

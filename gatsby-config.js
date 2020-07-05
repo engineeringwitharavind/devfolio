@@ -6,10 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
+    title: "Aravind Portfolio",
+    description: "Portfolio Site",
+    author: "@Aravind",
+    twitterUsername: "@aravind_views",
     image: "/twitter-img.png",
     siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
   },
@@ -42,7 +42,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Fondamento`,
+            family: `Lobster`,
             variants: [`400`, `700`],
           },
           {
