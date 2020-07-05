@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { graphql } from "gatsby";
 import Title from "../components/Title";
 import Image from "gatsby-image";
+import ReactMarkdown from "react-markdown";
 // ...GatsbyImageSharpFluid
 
 const About = ({
@@ -19,7 +20,7 @@ const About = ({
           <Image fluid={image.childImageSharp.fluid} className="about-img" />
           <article className="about-text">
             <Title title={title} />
-            <p>{info}</p>
+            <ReactMarkdown source={info} />
             <div className="about-stack">
               {stack.map((item) => {
                 return <span key={item.id}>{item.title}</span>;
