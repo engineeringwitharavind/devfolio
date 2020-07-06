@@ -1025,7 +1025,7 @@ Contact Page
   letter-spacing: var(--spacing);
 }
 .form-control::placeholder {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   color: var(--clr-grey-1);
   text-transform: uppercase;
   letter-spacing: var(--spacing);
