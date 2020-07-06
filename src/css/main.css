@@ -503,7 +503,7 @@ Services
 */
 .service {
   background: var(--clr-white);
-  padding: 3rem 1.5rem;
+  padding: 2rem 1rem;
   margin-bottom: 2rem;
   border-radius: var(--radius);
   text-align: center;
@@ -513,6 +513,7 @@ Services
 .service-icon {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  height: 12vh;
 }
 .service .underline {
   width: 3rem;
@@ -523,6 +524,7 @@ Services
 .service p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  color: var(--clr-primary-2);
 }
 .service:hover {
   background: var(--clr-primary-5);

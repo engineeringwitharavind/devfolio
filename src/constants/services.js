@@ -1,22 +1,33 @@
-import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import React from "react";
+import frontend from "../assets/frontend.svg";
+import backend from "../assets/backend.svg";
+import database from "../assets/database.svg";
+
+const SimpleList = () => (
+  <ul>
+    {["html5", "css3", "js"].map(function (item) {
+      return <li key={item}>{item}</li>;
+    })}
+  </ul>
+);
+
 export default [
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <img className="service-icon" src={frontend} alt="icon" />,
+    title: "front-end",
+    text: `HTML | CSS | JS | React | Gatsby`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <img className="service-icon" src={backend} alt="icon" />,
+    title: "back-end",
+    text: `Node JS | Express JS | Flask`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <img className="service-icon" src={database} alt="icon" />,
+    title: "database",
+    text: `SQL-Server | MongoDB`,
   },
-]
+];
