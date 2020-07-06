@@ -589,6 +589,7 @@ Jobs
   margin-bottom: 4rem;
 }
 .job-btn {
+  font-family: "Galada";
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
