@@ -41,6 +41,7 @@ const ChartData = () => {
         stepSize: 10,
       },
     },
+    maintainAspectRatio: false,
   };
 
   useEffect(() => {
@@ -50,7 +51,8 @@ const ChartData = () => {
   return (
     <div>
       <h4 className="skills-center">skills-chart</h4>
-      <div>
+      <div className="skills-underline"></div>
+      <div className="canvas-container">
         <Radar data={chartData} options={options} />
       </div>
     </div>

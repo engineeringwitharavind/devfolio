@@ -535,13 +535,25 @@ Services
   background: var(--clr-primary-9);
 }
 .skills-center {
+  margin-top: 2rem;
   width: 80vw;
-  margin: 0 auto;
+  margin-left: auto;
   max-width: var(--max-width);
+  font-family: var(--ff-primary);
+  color: var(--clr-primary-4);
 }
 .about-skills {
   margin-top: 3rem;
 }
+.canvas-container {
+  height: 60vh;
+}
+@media screen and (max-width: 767px) {
+  .canvas-container {
+    height: 50vh;
+  }
+}
+
 @media screen and (min-width: 676px) {
   .services-center {
     display: grid;

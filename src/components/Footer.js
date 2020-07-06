@@ -12,7 +12,7 @@ const Footer = () => {
       <div>
         <SocialLinks styleClass="footer-links"></SocialLinks>
         <h5>
-          copyright &copy; {new Date().getFullYear()}
+          &copy; {new Date().getFullYear()}
           <span> Aravind </span> Built with <GrGatsbyjs /> and <FaReact />{" "}
           deployed on <Icon icon={netlifyIcon} />
         </h5>
