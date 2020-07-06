@@ -1,19 +1,46 @@
 import React, { useState, useEffect } from "react";
-import { Line } from "react-chartjs-2";
+import { Radar } from "react-chartjs-2";
 
 const ChartData = () => {
   const [chartData, setChartData] = useState({});
 
   const chart = () => {
     setChartData({
-      labels: ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      labels: [
+        "HTML5",
+        "CSS3",
+        "Spark",
+        "JavaScript",
+        "Python",
+        "Git",
+        "SQL",
+        "Gatsby.js",
+        "MongoDB",
+        "React.js",
+        "Node.js",
+      ],
       datasets: [
         {
-          level: "level of xyz",
-          data: [32, 55, 33, 47, 64],
+          label: "Expertise level",
+          backgroundColor: "rgba(73,174,186,0.2)",
+          borderColor: "rgba(73,174,186,1)",
+          pointBackgroundColor: "rgba(255,99,132,1)",
+          pointBorderColor: "#fff",
+          pointHoverBackgroundColor: "#fff",
+          pointHoverBorderColor: "rgba(255,99,132,1)",
+          data: [85, 70, 70, 80, 70, 63, 75, 65, 55, 85, 60],
         },
       ],
     });
+  };
+
+  const options = {
+    scale: {
+      ticks: {
+        beginAtZero: true,
+        stepSize: 10,
+      },
+    },
   };
 
   useEffect(() => {
@@ -22,9 +49,9 @@ const ChartData = () => {
 
   return (
     <div>
-      <h1>Hello</h1>
+      <h4 className="skills-center">skills-chart</h4>
       <div>
-        <Line data={chartData} />
+        <Radar data={chartData} options={options} />
       </div>
     </div>
   );

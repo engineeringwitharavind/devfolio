@@ -535,6 +535,14 @@ Services
 .service:hover .underline {
   background: var(--clr-primary-9);
 }
+.skills-center {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+.about-skills {
+  margin-top: 3rem;
+}
 @media screen and (min-width: 676px) {
   .services-center {
     display: grid;
@@ -859,9 +867,11 @@ Footer
   color: var(--clr-white);
   font-weight: normal;
   text-transform: uppercase;
+  font-family: var(--ff-secondary);
 }
 .footer h5 span {
   color: var(--clr-primary-5);
+  font-family: var(--ff-secondary);
 }
 .footer-links {
   margin: 0 auto 1rem auto;

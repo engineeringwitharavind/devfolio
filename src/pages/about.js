@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { graphql } from "gatsby";
 import Title from "../components/Title";
 import Image from "gatsby-image";
+import Radar from "../components/Radar";
 import ReactMarkdown from "react-markdown";
 // ...GatsbyImageSharpFluid
 
@@ -27,6 +28,9 @@ const About = ({
               })}
             </div>
           </article>
+        </div>
+        <div className="about-skills">
+          <Radar />
         </div>
       </section>
     </Layout>
