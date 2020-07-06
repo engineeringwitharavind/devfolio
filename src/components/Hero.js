@@ -28,6 +28,7 @@ const Hero = () => {
   return (
     <header className="hero">
       <div className="section-center hero-center">
+        <Image fluid={fluid} className="hero-img" />
         <article className="hero-info">
           <div>
             <div className="underline"></div>
@@ -39,7 +40,6 @@ const Hero = () => {
             <SocialLinks />
           </div>
         </article>
-        <Image fluid={fluid} className="hero-img" />
       </div>
     </header>
   );
