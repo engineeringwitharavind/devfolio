@@ -8,7 +8,7 @@ export default [
     id: 1,
     icon: <img className="interests-icon" src={music} alt="icon" />,
     title: "Music",
-    text: `Special impact on my Mood swings`,
+    text: `It speaks, when words fail!`,
   },
   {
     id: 2,
