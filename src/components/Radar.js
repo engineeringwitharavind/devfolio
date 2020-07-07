@@ -27,7 +27,7 @@ const ChartData = () => {
           pointBorderColor: "#fff",
           pointHoverBackgroundColor: "#fff",
           pointHoverBorderColor: "rgba(255,99,132,1)",
-          data: [85, 70, 80, 70, 63, 75, 60, 55, 85, 60],
+          data: [85, 70, 80, 70, 65, 75, 60, 55, 85, 60],
         },
       ],
     });
