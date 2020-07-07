@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Radar } from "react-chartjs-2";
+import Title from "../components/Title";
 
 const ChartData = () => {
   const [chartData, setChartData] = useState({});
@@ -34,6 +35,9 @@ const ChartData = () => {
   };
 
   const options = {
+    legend: {
+      display: false,
+    },
     scale: {
       ticks: {
         beginAtZero: true,
@@ -49,7 +53,7 @@ const ChartData = () => {
 
   return (
     <div>
-      <h4 className="skills-center">skills-chart</h4>
+      <Title title="skills-chart" />
       <div className="skills-underline"></div>
       <div className="canvas-container">
         <Radar data={chartData} options={options} />

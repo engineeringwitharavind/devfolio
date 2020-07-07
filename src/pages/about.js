@@ -5,6 +5,7 @@ import Title from "../components/Title";
 import Image from "gatsby-image";
 import Radar from "../components/Radar";
 import ReactMarkdown from "react-markdown";
+import Interests from "../components/Interests";
 // ...GatsbyImageSharpFluid
 
 const About = ({
@@ -32,6 +33,7 @@ const About = ({
         <div className="about-skills">
           <Radar />
         </div>
+        <Interests />
       </section>
     </Layout>
   );

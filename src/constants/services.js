@@ -3,14 +3,6 @@ import frontend from "../assets/frontend.svg";
 import backend from "../assets/backend.svg";
 import database from "../assets/database.svg";
 
-const SimpleList = () => (
-  <ul>
-    {["html5", "css3", "js"].map(function (item) {
-      return <li key={item}>{item}</li>;
-    })}
-  </ul>
-);
-
 export default [
   {
     id: 1,

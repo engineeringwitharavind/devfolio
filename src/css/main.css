@@ -41,7 +41,7 @@ Variables
   --ff-primary: "Lobster", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.2rem;
+  --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -185,6 +185,9 @@ p {
 }
 .bg-grey {
   background: var(--clr-grey-10);
+}
+.bg-white {
+  background: var(--clr-white);
 }
 /* page links */
 
@@ -536,19 +539,12 @@ Services
 .service:hover .underline {
   background: var(--clr-primary-9);
 }
-.skills-center {
-  margin-top: 2rem;
-  width: 80vw;
-  margin-left: auto;
-  max-width: var(--max-width);
-  font-family: var(--ff-primary);
-  color: var(--clr-primary-4);
-}
 .about-skills {
   margin-top: 3rem;
 }
 .canvas-container {
   height: 60vh;
+  margin-bottom: 2rem;
 }
 @media screen and (max-width: 767px) {
   .canvas-container {
@@ -623,10 +619,11 @@ Jobs
 .job-info h4 {
   text-transform: uppercase;
   color: var(--clr-grey-5);
-  background: var(--clr-grey-9);
+  background: var(--clr-primary-9);
   display: inline-block;
   padding: 0.375rem 0.75rem;
   border-radius: var(--radius);
+  font-family: var(--ff-secondary);
 }
 .job-date {
   letter-spacing: var(--spacing);
@@ -969,6 +966,42 @@ About Page
   color: var(--clr-primary-5);
   margin-right: 0.25rem;
   font-size: 1rem;
+}
+.interests-icon {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  height: 25vh;
+}
+.interests {
+  background: var(--clr-white);
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: var(--radius);
+  text-align: center;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+.interests .underline {
+  width: 3rem;
+  height: 0.12rem;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+.interests p {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--clr-primary-2);
+  font-size: 1rem;
+}
+.interests:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-9);
+}
+.interests:hover p {
+  color: var(--clr-primary-9);
+}
+.interests:hover .underline {
+  background: var(--clr-primary-9);
 }
 @media screen and (min-width: 992px) {
   .about-center {

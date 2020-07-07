@@ -12,9 +12,8 @@ const Footer = () => {
       <div>
         <SocialLinks styleClass="footer-links"></SocialLinks>
         <h5>
-          &copy; {new Date().getFullYear()}
-          <span> Aravind </span> Built with <GrGatsbyjs /> and <FaReact />{" "}
-          deployed on <Icon icon={netlifyIcon} />
+          &copy; {new Date().getFullYear()},<span> Aravind. </span> Built with{" "}
+          <GrGatsbyjs /> and <FaReact /> deployed on <Icon icon={netlifyIcon} />
         </h5>
       </div>
     </footer>
