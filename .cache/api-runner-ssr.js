@@ -7,12 +7,6 @@ var plugins = [{
     },{
       plugin: require('/Users/alpha/Desktop/devfolio/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Lobster","variants":["400","700"]},{"family":"Open Sans"}]},
-    },{
-      plugin: require('/Users/alpha/Desktop/devfolio/node_modules/gatsby-plugin-use-dark-mode/gatsby-ssr'),
-      options: {"plugins":[],"classNameDark":"dark-mode","classNameLight":"light-mode","storageKey":"darkMode","minify":true},
-    },{
-      plugin: require('/Users/alpha/Desktop/devfolio/node_modules/gatsby-plugin-dark-mode/gatsby-ssr'),
-      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

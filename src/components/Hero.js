@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 import TextLoop from "react-text-loop";
 import { graphql, useStaticQuery } from "gatsby";
 import SocialLinks from "../constants/socialLinks";
-
 // ...GatsbyImageSharpFluid
 
 const query = graphql`
