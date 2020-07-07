@@ -449,8 +449,13 @@ Hero
 .hero-img {
   display: flex;
 }
+.text-loop {
+  color: var(--clr-primary-5);
+}
 .hero-info h4 {
-  color: var(--clr-grey-5);
+  margin-top: 1rem;
+  color: var(--clr-grey-4);
+  text-transform: none;
 }
 .hero-icons {
   justify-items: flex-start;

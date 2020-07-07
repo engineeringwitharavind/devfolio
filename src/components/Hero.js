@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "gatsby-image";
 import { Link } from "gatsby";
+import TextLoop from "react-text-loop";
 import { graphql, useStaticQuery } from "gatsby";
 import SocialLinks from "../constants/socialLinks";
 
@@ -33,7 +34,15 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h2>I'm Aravind</h2>
-            <h4>A self-taught software engineer</h4>
+            <h4>
+              A{" "}
+              <TextLoop className="text-loop">
+                <span>self-taught</span>
+                <span>passionate</span>
+                <span>pragmatic</span>
+              </TextLoop>{" "}
+              Software engineer
+            </h4>
             <Link to="/contact" className="btn">
               Contact me
             </Link>
