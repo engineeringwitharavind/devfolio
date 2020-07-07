@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "chart.js": "^2.9.3",
+    "darkmode-js": "^1.5.6",
     "gatsby": "^2.21.0",
     "gatsby-image": "^2.4.0",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
