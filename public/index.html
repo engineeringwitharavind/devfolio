@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="note" content="environment=development"/><title data-react-helmet="true"></title><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/google-fonts/s/lobster/v22/neILzCirqoswsqX9zoKmMw.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/google-fonts/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2"/><style type="text/css">@font-face{font-family:Lobster;font-style:normal;font-weight:400;src:local('Lobster Regular'),local('Lobster-Regular'),url(/google-fonts/s/lobster/v22/neILzCirqoswsqX9zoKmMw.woff2) format('woff2'),url(/google-fonts/s/lobster/v22/neILzCirqoswsqX9zoKmNQ.woff) format('woff');font-display: swap;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(/google-fonts/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2'),url(/google-fonts/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0d.woff) format('woff');font-display: swap;}</style><script src="/socket.io/socket.io.js"></script></head><body><script>!function(e,a,o){function d(e){document.body.classList.add(e?"dark-mode":"light-mode"),document.body.classList.remove(e?"light-mode":"dark-mode")}var t=window.matchMedia("(prefers-color-scheme: dark)"),r="(prefers-color-scheme: dark)"===t.media,s=null;try{s=localStorage.getItem("darkMode")}catch(e){}var c=null!==s;if(c&&(s=JSON.parse(s)),c)d(s);else if(r)d(t.matches),localStorage.setItem("darkMode",t.matches);else{var l=document.body.classList.contains("dark-mode");localStorage.setItem("darkMode",JSON.stringify(l))}}();</script><script>
+void function() {
+  window.__onThemeChange = function() {}
+
+  var preferredTheme
+  try {
+    preferredTheme = localStorage.getItem('theme')
+  } catch (err) { }
+
+  function setTheme(newTheme) {
+    if (preferredTheme && document.body.classList.contains(preferredTheme)) {
+      document.body.classList.replace(preferredTheme, newTheme)
+    } else {
+      document.body.classList.add(newTheme)
+    }
+
+    window.__theme = newTheme
+    preferredTheme = newTheme
+    window.__onThemeChange(newTheme)
+  }
+
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme)
+    try {
+      localStorage.setItem('theme', newTheme)
+    } catch (err) {}
+  }
+
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)')
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  })
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
+}()
+    </script><div id="___gatsby"></div><script src="/commons.js"></script></body></html>

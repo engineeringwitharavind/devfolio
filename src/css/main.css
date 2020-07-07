@@ -170,7 +170,7 @@ p {
     width: 95vw;
   }
 }
-/* added during recording */
+
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -206,6 +206,19 @@ p {
 .social-link:hover {
   color: var(--clr-primary-5);
 }
+
+/*
+================= 
+Dark-Mode Styling
+=================
+*/
+
+/* ========================================================================================================================================== */
+/*
+================== 
+Light-Mode Styling
+==================
+*/
 /*
 =============== 
 Navbar
@@ -348,7 +361,7 @@ Sidebar
   font-size: 2.5rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-red-dark);
+  color: var(--clr-primary-5);
   cursor: pointer;
 }
 @media screen and (min-width: 992px) {
