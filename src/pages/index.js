@@ -6,6 +6,7 @@ import Services from "../components/Services";
 import Jobs from "../components/Jobs";
 import Projects from "../components/Projects";
 import Blogs from "../components/Blogs";
+import { ThemeProvider } from "../components/ThemeContext";
 
 export default ({ data }) => {
   const {
@@ -14,13 +15,15 @@ export default ({ data }) => {
   } = data;
 
   return (
-    <Layout>
-      <Hero />
-      <Services />
-      <Jobs />
-      <Projects projects={projects} title="featured projects" showLink />
-      <Blogs blogs={blogs} title="latest articles" showLink />
-    </Layout>
+    <ThemeProvider>
+      <Layout>
+        <Hero />
+        <Services />
+        <Jobs />
+        <Projects projects={projects} title="featured projects" showLink />
+        <Blogs blogs={blogs} title="latest articles" showLink />
+      </Layout>
+    </ThemeProvider>
   );
 };
 
