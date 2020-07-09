@@ -7,6 +7,7 @@
 
 #public
 /public
+/src/assets
 
 # testing
 /coverage
