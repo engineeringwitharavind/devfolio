@@ -758,7 +758,6 @@ Projects
   font-size: 1.25rem;
   margin-right: 0.5rem;
   transition: var(--transition);
-  align-items: center;
 }
 .project-icon:hover {
   color: var(--clr-primary-1);
