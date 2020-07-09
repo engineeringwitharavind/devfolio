@@ -6,7 +6,7 @@ import Services from "../components/Services";
 import Jobs from "../components/Jobs";
 import Projects from "../components/Projects";
 import Blogs from "../components/Blogs";
-import { ThemeProvider } from "../components/ThemeContext";
+import SEO from "../components/SEO";
 
 export default ({ data }) => {
   const {
@@ -15,15 +15,14 @@ export default ({ data }) => {
   } = data;
 
   return (
-    <ThemeProvider>
-      <Layout>
-        <Hero />
-        <Services />
-        <Jobs />
-        <Projects projects={projects} title="featured projects" showLink />
-        <Blogs blogs={blogs} title="latest articles" showLink />
-      </Layout>
-    </ThemeProvider>
+    <Layout>
+      <SEO title="Home" description="Aravind's Home Page" />
+      <Hero />
+      <Services />
+      <Jobs />
+      <Projects projects={projects} title="featured projects" showLink />
+      <Blogs blogs={blogs} title="latest articles" showLink />
+    </Layout>
   );
 };
 

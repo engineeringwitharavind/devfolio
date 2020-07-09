@@ -6,6 +6,7 @@ import Image from "gatsby-image";
 import Radar from "../components/Radar";
 import ReactMarkdown from "react-markdown";
 import Interests from "../components/Interests";
+import SEO from "../components/SEO";
 // ...GatsbyImageSharpFluid
 
 const About = ({
@@ -17,6 +18,7 @@ const About = ({
 
   return (
     <Layout>
+      <SEO title="About" description="About me" />
       <section className="about-page">
         <div className="section-center about-center">
           <Image fluid={image.childImageSharp.fluid} className="about-img" />

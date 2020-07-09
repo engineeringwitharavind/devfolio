@@ -758,6 +758,7 @@ Projects
   font-size: 1.25rem;
   margin-right: 0.5rem;
   transition: var(--transition);
+  align-items: center;
 }
 .project-icon:hover {
   color: var(--clr-primary-1);
@@ -892,6 +893,7 @@ Footer
   place-items: center;
 }
 .footer h5 {
+  font-size: 10px;
   margin-top: 0.5rem;
   color: var(--clr-white);
   font-weight: normal;
