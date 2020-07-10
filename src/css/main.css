@@ -40,6 +40,7 @@ Variables
   --clr-white: #fff;
   --ff-primary: "Lobster", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
+  --ff-secondary-1: "Nunito Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -208,18 +209,6 @@ p {
 }
 
 /*
-================= 
-Dark-Mode Styling
-=================
-*/
-
-/* ========================================================================================================================================== */
-/*
-================== 
-Light-Mode Styling
-==================
-*/
-/*
 =============== 
 Navbar
 ===============
@@ -249,7 +238,7 @@ Navbar
   display: flex;
   align-items: center;
   z-index: 200;
-  background: var(--clr-white);
+  background: transparent;
 }
 .nav-center {
   width: 90vw;
@@ -809,6 +798,7 @@ Projects
 Blog
 ===============
 */
+
 .blog {
   display: block;
   margin-bottom: 2rem;
@@ -917,7 +907,11 @@ Footer
 Pages
 ===============
 */
-.blog-template,
+
+.blog-template {
+  background: var(--clr-grey-10);
+}
+
 .projects-page,
 .blog-page,
 .error-page,
@@ -1097,33 +1091,56 @@ Contact Page
 Blog Template
 ===============
 */
+/*
+===============
+Blog Template
+===============
+*/
 .blog-template {
   padding: 5rem 0;
+  font-size: 1rem;
+  background: #fafeff;
 }
-
 .blog-template h1,
-.blog-template h2 {
-  text-align: center;
-}
-.blog-template ul {
-  margin-top: 2rem;
-  display: inline-block;
-}
-.blog-template ul li {
-  background: var(--clr-grey-9);
-  color: var(--clr-grey-5);
-  padding: 0.5rem 1rem;
-  margin: 1rem 0;
-  text-transform: uppercase;
+.blog-template h2,
+.blog-template h3,
+.blog-template h4,
+.blog-template h5 {
+  color: var(--clr-primary-5);
+  letter-spacing: normal;
+  font-family: var(--ff-secondary-1);
+  text-transform: none;
 }
 
+.blog-template h4 {
+  font-size: 19px;
+}
+
+.blog-template h5 {
+  font-size: 18px;
+}
+
+.blog-template p {
+  color: #000;
+}
+
+.blog-template ul {
+  margin: 0.3rem 1rem;
+  display: inline-block;
+  list-style: square;
+  color: #000;
+  font-size: 1rem;
+}
+
+.blog-template ul li {
+  padding: 0.3rem;
+}
 .blog-template blockquote {
-  background: var(--clr-primary-9);
-  border-radius: var(--radius);
-  padding: 1rem;
-  line-height: 2;
-  color: var(--clr-primary-5);
-  margin: 2rem 0;
+  background: lightyellow;
+  padding-top: 0.1rem;
+  color: #000;
+  margin: 1rem 0;
+  width: fit-content;
 }
 .blog-template pre {
   background: #222;
@@ -1133,7 +1150,21 @@ Blog Template
   border-radius: var(--radius);
 }
 .blog-template img {
-  width: 15rem;
-  height: 15rem;
-  margin: 3rem 0;
+  width: auto;
+  height: auto;
+  margin: 1rem;
+}
+@media screen and (max-width: 767px) {
+  .blog-template img {
+    width: 95%;
+    height: 90%;
+  }
+  .blog-template blockquote {
+    background: lightyellow;
+    padding-top: 0.1rem;
+    color: #000;
+    margin: 1rem 0;
+    width: fit-content;
+    font-size: 0.9rem;
+  }
 }

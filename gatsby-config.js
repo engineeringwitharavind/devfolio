@@ -48,6 +48,9 @@ module.exports = {
           {
             family: `Open Sans`,
           },
+          {
+            family: `Nunito Sans`,
+          },
         ],
       },
     },
