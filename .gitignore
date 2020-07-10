@@ -5,12 +5,16 @@
 /.pnp
 .pnp.js
 
-#public
+###### COMMENT THIS FOR BUILD ######
+
+# Public
+
 /public
 /src/assets
-
 /src/css
 /static
+
+####################################
 
 # testing
 /coverage
