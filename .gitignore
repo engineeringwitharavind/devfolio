@@ -9,6 +9,9 @@
 /public
 /src/assets
 
+/src/css
+/static
+
 # testing
 /coverage
 
