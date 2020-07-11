@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{w2l6:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),l=t.n(n),o=t("7oih"),c=t("Wbzz"),r=t("EYWl");a.default=function(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"404 Page",description:"Page is Not Available. Go to HOME Page"}),l.a.createElement("main",{className:"error-page"},l.a.createElement("h3",null,"oops! it's a dead end"),l.a.createElement(c.a,{to:"/",className:"btn"},"back to home")))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-efd0f0bc88b8c00e94e0.js.map
