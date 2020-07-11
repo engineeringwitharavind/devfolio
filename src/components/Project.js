@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import Image from "gatsby-image";
 import { FaGithub, FaLink } from "react-icons/fa";
-const Project = ({ description, title, github, stack, url, image, index }) => {
+
+const Project = ({ description, title, github, stack, url, image }) => {
   return (
     <article className="project">
       {image && (
@@ -17,10 +18,10 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
           })}
         </div>
         <div className="project-links">
-          <a href={github}>
+          <a href={github} rel="noopener noreferrer" target="_blank">
             <FaGithub className="project-icon" />
           </a>
-          <a href={url}>
+          <a href={url} rel="noopener noreferrer" target="_blank">
             <FaLink className="project-icon" />
           </a>
         </div>
