@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Image from "gatsby-image";
-import { FaGithub, FaLink } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = ({ description, title, github, stack, url, image }) => {
   return (
@@ -22,7 +22,7 @@ const Project = ({ description, title, github, stack, url, image }) => {
             <FaGithub className="project-icon" />
           </a>
           <a href={url} rel="noopener noreferrer" target="_blank">
-            <FaLink className="project-icon" />
+            <FaExternalLinkAlt className="project-icon" />
           </a>
         </div>
       </div>

@@ -4,17 +4,19 @@
 /node_modules
 /.pnp
 .pnp.js
-
-###### COMMENT THIS FOR BUILD ######
-
-# Public
-
-/public
-/src/assets
-/src/css
-/static
-
+.gitignore
+.cache
+.vscode
+package.json
+package-lock.json
 ####################################
+
+public
+/src/assets
+css
+static
+/src/constants
+gatsby-config.js
 
 # testing
 /coverage
