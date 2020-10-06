@@ -17,6 +17,8 @@ css
 static
 /src/constants
 gatsby-config.js
+/src/components/Radar.js
+/src/components/SEO.js
 
 # testing
 /coverage
