@@ -32,7 +32,7 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="underline"></div>
-            <h2>I'm Aravind</h2>
+            <h3>I'm Aravind</h3>
             <h4>
               A{" "}
               <TextLoop className="text-loop">
@@ -42,10 +42,10 @@ const Hero = () => {
               </TextLoop>{" "}
               Software engineer
             </h4>
-            <Link to="/contact" className="btn">
+            <Link to="/contact" className="btn" aria-label="Contact Me">
               Contact me
             </Link>
-            <SocialLinks />
+            <SocialLinks aria-label="Social Links" />
           </div>
         </article>
       </div>

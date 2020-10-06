@@ -5,7 +5,7 @@ import interests from "../constants/interests";
 const Interests = () => {
   return (
     <section className="section bg-grey">
-      <Title title="interests" />
+      <Title title="Leisure" />
       <div className="section-center services-center">
         {interests.map((interest) => {
           const { id, icon, title, text } = interest;

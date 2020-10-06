@@ -5,7 +5,12 @@ import { Link } from "gatsby";
 
 const Blog = ({ id, title, image, date, stack, slug, desc }) => {
   return (
-    <Link to={`/blogs/${slug}`} className="blog" key={id}>
+    <Link
+      to={`/blogs/${slug}`}
+      className="blog"
+      key={id}
+      aria-label="Blog Links"
+    >
       <article>
         {image && (
           <Image fluid={image.childImageSharp.fluid} className="blog-img" />

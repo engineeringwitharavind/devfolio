@@ -2,7 +2,6 @@ import React from "react";
 import Title from "./Title";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { graphql, useStaticQuery } from "gatsby";
-import { Link } from "gatsby";
 
 const query = graphql`
   {
@@ -31,13 +30,14 @@ const Jobs = () => {
 
   return (
     <section className="section jobs">
-      <Title title="expierence" />
+      <Title title="experience" />
       <div className="jobs-center">
         {/* btn container */}
         <div className="btn-container">
           {jobs.map((item, index) => {
             return (
               <button
+                aria-label="Company Name"
                 key={item.strapiId}
                 onClick={() => setValue(index)}
                 className={`job-btn ${index === value && "active-btn"}`}
@@ -62,9 +62,6 @@ const Jobs = () => {
           })}
         </article>
       </div>
-      <Link to="/about" className="btn center-btn">
-        more info
-      </Link>
     </section>
   );
 };

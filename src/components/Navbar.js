@@ -9,11 +9,19 @@ const Navbar = ({ toggleSidebar }) => {
       <div className="nav-center">
         <div className="nav-header">
           <img className="logo" src={logo} alt="logo" />
-          <button type="button" className="toggle-btn" onClick={toggleSidebar}>
+          <button
+            type="button"
+            className="toggle-btn"
+            aria-label="Toggle Sidebar"
+            onClick={toggleSidebar}
+          >
             <FaAlignRight></FaAlignRight>
           </button>
         </div>
-        <PageLinks styleClass="nav-links"></PageLinks>
+        <PageLinks
+          aria-label="Navigation Links"
+          styleClass="nav-links"
+        ></PageLinks>
       </div>
     </nav>
   );

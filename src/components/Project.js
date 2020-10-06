@@ -18,10 +18,20 @@ const Project = ({ description, title, github, stack, url, image }) => {
           })}
         </div>
         <div className="project-links">
-          <a href={github} rel="noopener noreferrer" target="_blank">
+          <a
+            href={github}
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="Github Link"
+          >
             <FaGithub className="project-icon" />
           </a>
-          <a href={url} rel="noopener noreferrer" target="_blank">
+          <a
+            href={url}
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="Project Link"
+          >
             <FaExternalLinkAlt className="project-icon" />
           </a>
         </div>

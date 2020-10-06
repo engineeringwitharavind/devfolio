@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Radar } from "react-chartjs-2";
-import Title from "../components/Title";
+import Title from "./Title";
 
 const ChartData = () => {
   const [chartData, setChartData] = useState({});
@@ -21,14 +21,14 @@ const ChartData = () => {
       ],
       datasets: [
         {
-          label: "Expertise level",
+          label: "Interests",
           backgroundColor: "rgba(73,174,186,0.2)",
           borderColor: "rgba(73,174,186,1)",
           pointBackgroundColor: "rgba(255,99,132,1)",
           pointBorderColor: "#fff",
           pointHoverBackgroundColor: "#fff",
           pointHoverBorderColor: "rgba(255,99,132,1)",
-          data: [85, 70, 75, 70, 65, 75, 60, 55, 75, 60],
+          data: [85, 70, 90, 70, 75, 65, 75, 70, 85, 65],
         },
       ],
     });
@@ -41,7 +41,7 @@ const ChartData = () => {
     scale: {
       ticks: {
         beginAtZero: true,
-        stepSize: 10,
+        display: false,
       },
     },
     maintainAspectRatio: false,
@@ -53,8 +53,7 @@ const ChartData = () => {
 
   return (
     <div>
-      <Title title="skills-chart" />
-      <div className="skills-underline"></div>
+      <Title title="Interests" />
       <div className="canvas-container">
         <Radar data={chartData} options={options} />
       </div>

@@ -12,7 +12,11 @@ const Projects = ({ projects, title, showLink }) => {
         })}
       </div>
       {showLink && (
-        <Link to="/projects" className="btn center-btn">
+        <Link
+          to="/projects"
+          className="btn center-btn"
+          aria-label="View All Projects"
+        >
           view all projects
         </Link>
       )}

@@ -13,8 +13,12 @@ export const Blogs = ({ blogs, title, showLink }) => {
         })}
       </div>
       {showLink && (
-        <Link to="/blog" className="btn center-btn">
-          blog
+        <Link
+          to="/blog"
+          className="btn center-btn"
+          aria-label="View All Articles"
+        >
+          all articles
         </Link>
       )}
     </section>

@@ -3,8 +3,8 @@ import Layout from "../components/Layout";
 import { graphql } from "gatsby";
 import Title from "../components/Title";
 import Image from "gatsby-image";
-import Radar from "../components/Radar";
 import ReactMarkdown from "react-markdown";
+import Radar from "../components/Radar";
 import Interests from "../components/Interests";
 import SEO from "../components/SEO";
 // ...GatsbyImageSharpFluid

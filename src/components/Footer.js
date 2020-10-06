@@ -8,9 +8,12 @@ import { FaReact } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer aria-label="Footer" className="footer">
       <div>
-        <SocialLinks styleClass="footer-links"></SocialLinks>
+        <SocialLinks
+          aria-label="Social Links"
+          styleClass="footer-links"
+        ></SocialLinks>
         <h5>
           &copy; {new Date().getFullYear()},<span> Aravind. </span> Built with{" "}
           <GrGatsbyjs /> and <FaReact /> deployed on <Icon icon={netlifyIcon} />

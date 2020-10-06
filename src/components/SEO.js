@@ -24,12 +24,19 @@ const SEO = ({ title, description }) => {
     siteTitle,
     siteUrl,
     image,
+    author,
     twitterUsername,
   } = site.siteMetadata;
   return (
     <Helmet htmlAttributes={{ lang: "en" }} title={`${title} | ${siteTitle}`}>
       <meta name="description" content={description || siteDesc} />
       <meta name="image" content={image} />
+      <meta name="author" content={`${author}`} />
+      <meta property="og:title" content={`${title} | ${siteTitle}`} />
+      <meta property="og:description" content={siteDesc} />
+      <meta property="og:image" content={`${siteUrl}${image}`} />
+      <meta property="og:author" content="Aravind" />
+      <meta property="og:type" content="Website" />
       {/* twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={twitterUsername} />
