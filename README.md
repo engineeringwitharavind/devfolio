@@ -10,7 +10,7 @@ Built a Portfolio | Blog site. [Check it out](http://aravind.netlify.com/)
 
 ![lighthouse_score](https://github.com/aravind-alpha/devFolio/blob/master/Portfolio%20Score.png)
 
-Check this article [here](https://aravind.netlify.app/blogs/how-i-made-my-portfolio-blog-site) on How and why I made this using Gatsby and Strapi.
+Check my article [here](https://aravind.netlify.app/blogs/how-i-made-my-portfolio-blog-site) on How and why I made this using Gatsby and Strapi.
 
 ### 👨‍🍳 Author
 
