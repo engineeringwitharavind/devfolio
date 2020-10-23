@@ -4,9 +4,9 @@ import { graphql } from "gatsby";
 import Title from "../components/Title";
 import Image from "gatsby-image";
 import ReactMarkdown from "react-markdown";
-import Radar from "../components/Radar";
 import Interests from "../components/Interests";
 import SEO from "../components/SEO";
+import Quotes from "../components/Quotes";
 // ...GatsbyImageSharpFluid
 
 const About = ({
@@ -32,9 +32,7 @@ const About = ({
             </div>
           </article>
         </div>
-        <div className="about-skills">
-          <Radar />
-        </div>
+        <Quotes />
         <Interests />
       </section>
     </Layout>
