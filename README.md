@@ -17,7 +17,7 @@ Check it out ➔ [🎁 🎉](http://aravind.netlify.com/) &nbsp; (click the Box)
 
 ![screenshot](https://aravind.netlify.app/twitter-img.png)
 
-![lighthouse_score](https://github.com/aravind-alpha/devFolio/blob/master/Portfolio%20Score.png)
+![lighthouse_score](https://github.com/aravind-alpha/devFolio/blob/master/Devfolio%20Performance.png)
 
 ### 🔗 &nbsp; Reference
 
