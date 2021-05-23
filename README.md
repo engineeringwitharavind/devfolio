@@ -13,7 +13,7 @@ Gatsby takes care of the Frontend. All the contents are coming from Strapi. Comp
 [![Strapi](https://img.shields.io/badge/using-Strapi-5BFFCB?style=flat&logo=strapi)](https://strapi.io/)
 [![icons](https://img.shields.io/badge/icons-react--icons-5BFFCB?style=flat&logo=React)](https://react-icons.github.io/react-icons/)
 
-Check it out ➔ [🎁 🎉](http://aravind.netlify.com/) &nbsp; (click the Box)
+Check it out ➔ [🎉](http://aravind.netlify.com/) &nbsp; (click the emoji)
 
 ![screenshot](https://aravind.netlify.app/twitter-img.png)
 
@@ -21,7 +21,7 @@ Check it out ➔ [🎁 🎉](http://aravind.netlify.com/) &nbsp; (click the Box)
 
 ### 🔗 &nbsp; Reference
 
-Check my article [here](https://aravind.netlify.app/blogs/how-i-made-my-portfolio-blog-site) on How and why I made this using Gatsby and Strapi.
+Check my [article](https://aravind.netlify.app/blogs/how-i-made-my-portfolio-blog-site) on Why I made this using Gatsby and Strapi.
 
 ### 💼 &nbsp; LinkedIn
 
