@@ -1,8 +1,8 @@
 ## devFolio
 
-> Built &nbsp;🛠 &nbsp; a personal Portfolio and Blog site using React.js, Gatsby, and Strapi.
+> Built &nbsp;🛠 &nbsp; a personal Portfolio and Blog site using React, Gatsby, and Strapi.
 
-Gatsby takes care of the Frontend. All the contents are coming from Strapi. Components are made with ❤️ &nbsp; and React.js
+Gatsby takes care of the Frontend. All the assets and contents interacts from Strapi. Components are built with ❤️ &nbsp; and React
 
 ### 🗃 &nbsp; Tech Stack
 
@@ -21,7 +21,7 @@ Check it out ➔ [🎉](http://aravind.netlify.com/) &nbsp; (click the emoji)
 
 ### 🔗 &nbsp; Reference
 
-Check my [article](https://aravind.netlify.app/blogs/how-i-made-my-portfolio-blog-site) on Why I made this using Gatsby and Strapi.
+Check out my [article](https://aravind.netlify.app/blogs/how-i-made-my-portfolio-blog-site) on Why I made this using Gatsby and Strapi.
 
 ### 💼 &nbsp; LinkedIn
 
