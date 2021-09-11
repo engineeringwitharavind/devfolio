@@ -2,7 +2,7 @@
 
 > Built &nbsp;🛠 &nbsp; a personal Portfolio and Blog site using React, Gatsby, and Strapi.
 
-Gatsby takes care of the Frontend. All the assets and contents interacts from Strapi. Components are built with ❤️ &nbsp; and React
+Gatsby takes care of the Frontend. All the assets and contents are coming from Strapi via GraphQL. Components are built with ❤️ &nbsp; and React
 
 ### 🗃 &nbsp; Tech Stack
 
