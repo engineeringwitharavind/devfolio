@@ -18,14 +18,14 @@ Check it out ➔ [🎉](http://aravind.netlify.com/) &nbsp; (click the emoji)
 
 ![screenshot](https://aravind.netlify.app/twitter-img.png)
 
-![lighthouse_score](https://github.com/aravind-alpha/devFolio/blob/master/Devfolio%20Performance.png)
+![lighthouse_score](https://github.com/frontend-engineer/devFolio/blob/master/Devfolio%20Performance.png)
 
 ### 🔗 &nbsp; Reference
 
-Check out my [article](https://aravind.netlify.app/blogs/how-i-made-my-portfolio-blog-site) on Why I made this using Gatsby and Strapi.
+Check out my [article](https://aravind.netlify.app/blogs/how-i-made-this-portfolio-blog-site) on Why I made this using Gatsby and Strapi.
 
 ### 💼 &nbsp; LinkedIn
 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/aravind-alpha)
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/frontend-engineer)
 
 If you like this project, show some love by giving it a ★ 😊
