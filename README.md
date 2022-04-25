@@ -6,7 +6,7 @@ Gatsby takes care of the Frontend. All the assets and contents are coming from S
 
 ### 🗃 &nbsp; Tech Stack
 
-[![MIT](https://img.shields.io/badge/License-MIT-628AFF?style=flat&logo=license)](https://github.com/aravind-alpha/GitSpace/blob/master/LICENSE)
+[![MIT](https://img.shields.io/badge/License-MIT-628AFF?style=flat&logo=license)](https://github.com/engineeringwitharavind/devFolio/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm)
 [![react](https://img.shields.io/badge/frontend-react-61daf9?style=flat&logo=React)](https://reactjs.org/)
 [![GraphQL](https://img.shields.io/badge/using-GraphQL-ec3f77?style=flat&logo=graphql)](https://graphql.org/)
@@ -18,7 +18,7 @@ Check it out ➔ [🎉](http://aravind.netlify.com/) &nbsp; (click the emoji)
 
 ![screenshot](https://aravind.netlify.app/twitter-img.png)
 
-![lighthouse_score](https://github.com/frontend-engineer/devFolio/blob/master/Devfolio%20Performance.png)
+![lighthouse_score](https://github.com/engineeringwitharavind/devFolio/blob/master/Devfolio%20Performance.png)
 
 ### 🔗 &nbsp; Reference
 
@@ -26,6 +26,6 @@ Check out my [article](https://aravind.netlify.app/blogs/how-i-made-this-portfol
 
 ### 💼 &nbsp; LinkedIn
 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/frontend-engineer)
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/engineeringwitharavind)
 
 If you like this project, show some love by giving it a ★ 😊
