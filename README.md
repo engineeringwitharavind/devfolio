@@ -22,7 +22,7 @@ Check it out ➔ [🎉](http://aravind.netlify.com/) &nbsp; (click the emoji)
 
 ### 🔗 &nbsp; Reference
 
-Check out my [article](https://aravind.netlify.app/blogs/how-i-made-this-portfolio-blog-site) on Why I made this using Gatsby and Strapi.
+Check out my [article](https://aravind.netlify.app/blogs/how-i-made-this-portfolio-blog-site-using-gatsby) on Why I made this using Gatsby and Strapi.
 
 ### 💼 &nbsp; LinkedIn
 
