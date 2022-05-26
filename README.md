@@ -1,8 +1,6 @@
-## devFolio
+## devfolio
 
 > Built &nbsp;🛠 &nbsp; a personal Portfolio and Blog site using React, Gatsby, and Strapi.
-
-Gatsby takes care of the Frontend. All the assets and contents are coming from Strapi via GraphQL. Components are built with ❤️ &nbsp; and React
 
 ### 🗃 &nbsp; Tech Stack
 
@@ -14,7 +12,7 @@ Gatsby takes care of the Frontend. All the assets and contents are coming from S
 [![Strapi](https://img.shields.io/badge/using-Strapi-8e74f7?style=flat&logo=strapi)](https://strapi.io/)
 [![icons](https://img.shields.io/badge/icons-react--icons-ec5c8d?style=flat&logo=React)](https://react-icons.github.io/react-icons/)
 
-Check it out ➔ [🎉](http://aravind.netlify.com/) &nbsp; (click the emoji)
+Check it out ➔ [here](http://aravind.netlify.com/)
 
 ![screenshot](https://aravind.netlify.app/twitter-img.png)
 
