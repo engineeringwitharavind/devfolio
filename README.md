@@ -1,6 +1,6 @@
 ## devfolio
 
-> Built &nbsp;🛠 &nbsp; a personal Portfolio and Blog site using React, Gatsby, and Strapi.
+> Built &nbsp;🛠 &nbsp; a personal Portfolio using React, Gatsby, and Strapi.
 
 #### Tech Stack
 
@@ -11,8 +11,6 @@
 [![Gatsby](https://img.shields.io/badge/using-Gatsby-663399?style=flat&logo=gatsby)](https://www.gatsbyjs.com/)
 [![Strapi](https://img.shields.io/badge/using-Strapi-8e74f7?style=flat&logo=strapi)](https://strapi.io/)
 [![icons](https://img.shields.io/badge/icons-react--icons-ec5c8d?style=flat&logo=React)](https://react-icons.github.io/react-icons/)
-
-Check it out ➔ [here](http://aravind.netlify.com/)
 
 ![screenshot](https://aravind.netlify.app/twitter-img.png)
 
