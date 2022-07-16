@@ -2,7 +2,7 @@
 
 > Built &nbsp;🛠 &nbsp; a personal Portfolio and Blog site using React, Gatsby, and Strapi.
 
-### 🗃 &nbsp; Tech Stack
+#### Tech Stack
 
 [![MIT](https://img.shields.io/badge/License-MIT-628AFF?style=flat&logo=license)](https://github.com/engineeringwitharavind/devFolio/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm)
@@ -17,13 +17,3 @@ Check it out ➔ [here](http://aravind.netlify.com/)
 ![screenshot](https://aravind.netlify.app/twitter-img.png)
 
 ![lighthouse_score](https://github.com/engineeringwitharavind/devFolio/blob/master/Devfolio%20Performance.png)
-
-### 🔗 &nbsp; Reference
-
-Check out my [article](https://aravind.netlify.app/blogs/how-i-made-this-portfolio-blog-site-using-gatsby) on Why I made this using Gatsby and Strapi.
-
-### 💼 &nbsp; LinkedIn
-
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/engineeringwitharavind)
-
-If you like this project, show some love by giving it a ★ 😊
